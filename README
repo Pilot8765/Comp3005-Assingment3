@@ -24,6 +24,7 @@ Files:
     SQLCreators.java    -> Functions for creating a SQL query from given Data
 
 Notes:
-    When asked for database name,
+    When asked for database name, if database exists it will be dropped and recreated so make sure not to overwrite important data
 
-        if database exists it will be dropped and recreated so make sure not to overwrite important data
+    Assumed User would input relatively valid data, I.E no error checking of valid email format etc.
+        Still Checks for data which could not be inputted at all into database invalid I.e date format
