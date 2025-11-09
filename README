@@ -1,5 +1,8 @@
 Marc McCully 101190878
 
+Video Demonstration:
+    https://youtu.be/Mu0FYzw20bI
+    
 Edit the props.properties file
 Change:
     user
@@ -22,4 +25,5 @@ Files:
 
 Notes:
     When asked for database name,
+
         if database exists it will be dropped and recreated so make sure not to overwrite important data
