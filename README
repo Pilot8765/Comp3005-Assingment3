@@ -1,0 +1,25 @@
+Marc McCully 101190878
+
+Edit the props.properties file
+Change:
+    user
+    password
+    url
+
+Compile:
+    javac -d class ./src/*.java
+
+Run:
+    Windows:
+        java -cp "class;lib/postgresql-42.7.8.jar" Main
+    Linux:
+        java -cp "class:lib/postgresql-42.7.8.jar" Main
+
+Files:
+    Main.java  -> Main function and function for running program loop
+    DatabaseFunctions.java  -> Holds functions which execute on the database
+    SQLCreators.java    -> Functions for creating a SQL query from given Data
+
+Notes:
+    When asked for database name,
+        if database exists it will be dropped and recreated so make sure not to overwrite important data
